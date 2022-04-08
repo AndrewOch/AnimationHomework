@@ -17,6 +17,9 @@
 		043022492800A3B900B9BF6C /* AnimationHomeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043022482800A3B900B9BF6C /* AnimationHomeworkTests.swift */; };
 		043022532800A3B900B9BF6C /* AnimationHomeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043022522800A3B900B9BF6C /* AnimationHomeworkUITests.swift */; };
 		043022552800A3B900B9BF6C /* AnimationHomeworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043022542800A3B900B9BF6C /* AnimationHomeworkUITestsLaunchTests.swift */; };
+		043022622800A65200B9BF6C /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043022612800A65200B9BF6C /* Animator.swift */; };
+		043022642800A69A00B9BF6C /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043022632800A69A00B9BF6C /* PresentViewController.swift */; };
+		043022672800A74900B9BF6C /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043022662800A74900B9BF6C /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		0430224E2800A3B900B9BF6C /* AnimationHomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationHomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043022522800A3B900B9BF6C /* AnimationHomeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHomeworkUITests.swift; sourceTree = "<group>"; };
 		043022542800A3B900B9BF6C /* AnimationHomeworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHomeworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		043022612800A65200B9BF6C /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		043022632800A69A00B9BF6C /* PresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
+		043022662800A74900B9BF6C /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +107,16 @@
 		0430222D2800A3B800B9BF6C /* AnimationHomework */ = {
 			isa = PBXGroup;
 			children = (
+				043022652800A72600B9BF6C /* Controllers */,
 				0430222E2800A3B800B9BF6C /* AppDelegate.swift */,
 				043022302800A3B800B9BF6C /* SceneDelegate.swift */,
-				043022322800A3B800B9BF6C /* ViewController.swift */,
 				043022342800A3B800B9BF6C /* Main.storyboard */,
 				0430223A2800A3B900B9BF6C /* Assets.xcassets */,
 				0430223C2800A3B900B9BF6C /* LaunchScreen.storyboard */,
 				0430223F2800A3B900B9BF6C /* Info.plist */,
 				043022372800A3B800B9BF6C /* AnimationHomework.xcdatamodeld */,
+				043022612800A65200B9BF6C /* Animator.swift */,
+				043022662800A74900B9BF6C /* Cell.swift */,
 			);
 			path = AnimationHomework;
 			sourceTree = "<group>";
@@ -128,6 +136,15 @@
 				043022542800A3B900B9BF6C /* AnimationHomeworkUITestsLaunchTests.swift */,
 			);
 			path = AnimationHomeworkUITests;
+			sourceTree = "<group>";
+		};
+		043022652800A72600B9BF6C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				043022322800A3B800B9BF6C /* ViewController.swift */,
+				043022632800A69A00B9BF6C /* PresentViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,8 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043022622800A65200B9BF6C /* Animator.swift in Sources */,
 				043022332800A3B800B9BF6C /* ViewController.swift in Sources */,
+				043022672800A74900B9BF6C /* Cell.swift in Sources */,
 				0430222F2800A3B800B9BF6C /* AppDelegate.swift in Sources */,
+				043022642800A69A00B9BF6C /* PresentViewController.swift in Sources */,
 				043022392800A3B800B9BF6C /* AnimationHomework.xcdatamodeld in Sources */,
 				043022312800A3B800B9BF6C /* SceneDelegate.swift in Sources */,
 			);
